@@ -9,7 +9,7 @@ function ifGuessIsValid(guess) {
             <div>Invalid value: The secret number have to be a number</div>
         `
         return;
-   }
+    }
 
     if (numberBiggerThanAllowed(number)) {
         guessElement.innerHTML += `
@@ -33,7 +33,6 @@ function ifGuessIsValid(guess) {
             <div>The secret number is smaller <i class="fa-solid fa-down-long"></i></div>
         `
     }
-
 }
 
 function numberBiggerThanAllowed(number) {
